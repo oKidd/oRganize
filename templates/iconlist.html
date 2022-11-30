@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon List</title>
+</head>
+<body>
+    <h1>Icon List</h1>
+    <!-- Crear modelo icono y agregarlos ahi, luego listar todos los iconos dentro del modelo?? -->
+    {% for img in iconlist %}
+        <img src="https://img.icons8.com/3d-fluency/100/{{ img.name }}.png">
+    {% endfor %}
+</body>
+</html>
