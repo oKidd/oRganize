@@ -1,6 +1,6 @@
 # oRganize
 
-Administra los recordatorios que necesitas, compartelos con tu equipo de trabajo y 
+Administra los recordatorios que necesitas y compartelos con tu equipo de trabajo.
 
 ## Developed By oKidd
 Proyecto en desarrollo...
