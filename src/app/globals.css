@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glowing{
+    filter: drop-shadow(0 0 10px white);
+}
+
+.glow:hover{
+    filter: drop-shadow(0 0 10px white);
+}
+
+* {
+    scrollbar-width: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .mobile{
+        display: block !important;
+    }
+    .pc{
+        display: none !important;
+    }
+}
+
+.mobile{
+    display: none;
+}
+.pc{
+    display: block;
+}
